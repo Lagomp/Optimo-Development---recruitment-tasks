@@ -1,0 +1,123 @@
+/* ogólne ------------------ */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font: 16px Verdana;
+  line-height: 1.6;
+  background: #19df07;
+}
+#wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 5px solid rgb(0, 0, 0);
+  border-top: none;
+  max-width: 1000px;
+  min-height: 583px;
+  max-height: 1000px;
+}
+a {
+  color: #354458;
+}
+
+/* logo ------------ */
+#header {
+  height: 75px;
+  background: #3f5a38;
+  border: 5px solid rgb(0, 0, 0);
+}
+#header h1 {
+  padding: 20px;
+  color: #e9e0d6;
+}
+
+/* tresc ------------ */
+#content {
+  margin: 2px;
+  float: left;
+  min-height: 200px;
+  width: 300px;
+  max-width: 900px;
+  border: 1px solid rgb(0, 0, 0);
+}
+#content2 {
+  margin: 2px;
+  clear: left;
+  float: left;
+  min-height: 200px;
+  width: 300px;
+  max-width: 900px;
+  border: 1px solid rgb(0, 0, 0);
+}
+#content3 {
+  background: #ffffff;
+  animation-name: myanim;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  margin: 2px;
+  overflow: hidden;
+  min-height: 583px;
+  width: 200px;
+  max-width: 900px;
+  border: 3px solid rgb(0, 0, 0);
+}
+@keyframes myanim {
+  0% {
+    background: blue;
+  }
+  50% {
+    background: red;
+  }
+  75% {
+    background: white;
+  }
+  100% {
+    background: blue;
+  }
+}
+#f1 {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom: 70px solid rgb(230, 10, 10);
+  position: relative;
+  top: -50px;
+  float: left;
+  margin-right: 25px;
+  margin: 15px;
+}
+#f2 {
+  position: absolute;
+  left: -50px;
+  top: 70px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top: 70px solid rgb(230, 10, 10);
+}
+
+#circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #23683e;
+  border: 3px solid rgb(0, 0, 0);
+  float: left;
+  margin: 15px;
+}
+#square {
+  width: 75px;
+  height: 75px;
+  background-color: #0e32cf;
+  border: 3px solid rgb(0, 0, 0);
+  float: left;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+  text-align: center;
+}

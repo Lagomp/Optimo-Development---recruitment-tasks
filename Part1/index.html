@@ -1,0 +1,51 @@
+<!--
+Korzystając tylko z HTML-a i CSS-a stwórz responsywną stronę internetową, której widok
+będzie się zmieniał w zależności od rozdzielczości ekranu. Rozwiązaniem powinny być dwa
+pliki: “index.html” oraz “style.css” umieszczone w repozytorium na GitHub-ie.
+
+Nie używaj:
+- frameworków CSS,
+- plików graficznych,
+- plików wektorowych.
+
+Na co będziemy zwracali uwagę:
+- czy kod nie jest przeklejony z innej strony,
+- jak przejrzysty jest Twój kod i w jaki sposób jest zapisany,
+- nazwy commitów w repozytorium,
+- oryginalne i zgrabne rozwiązania,
+- poziom odwzorowania obrazów poglądowych,
+- animacje elementów w CSS - nie jest to obowiązkowe, ale mile widziane.
+
+Pamiętaj o tym, żeby każdy widok był zawsze widoczny w całości na ekranie, strona nie
+powinna się scrollować!
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="style.css" rel="stylesheet" />
+
+    <title>Optimo Develeopment - Zadanie Part 1</title>
+  </head>
+
+  <body scroll="no" style="overflow: hidden">
+    <div id="header"></div>
+
+    <div id="wrapper">
+      <div id="content">
+        <div id="f1"><div id="f2"></div></div>
+        <div id="f1"><div id="f2"></div></div>
+      </div>
+      <div id="content2">
+        <div id="square"></div>
+        <div id="circle"></div>
+      </div>
+      <div id="content3">
+        <h1>ABC</h1>
+      </div>
+    </div>
+  </body>
+</html>
